@@ -28,7 +28,7 @@ const YourReCaptchaComponent = () => {
 
 ReactDom.render(
   <GoogleReCaptchaProvider
-    reCaptchaKey="6LcBZaYkAAAAAFCEbJDKZmvJHldtztBTz6WJrq80"
+    reCaptchaKey={process.env.captchaKey}
     language="es"
   >
     <YourReCaptchaComponent />
