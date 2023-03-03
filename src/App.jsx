@@ -4,6 +4,7 @@ import PageNotFound from "./components/pages/pageNotFound";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "swiper/css/bundle";
+import "swiper/css";
 import "./styles/index.css";
 
 function App() {

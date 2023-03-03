@@ -81,6 +81,7 @@ export default function SingInForm() {
         allowTouchMove={false}
         speed={500}
         color="#faf8ff"
+        injectStylesUrls={["../styles/index.css"]}
         loop={true}
       >
         <SwiperSlide className="center">
